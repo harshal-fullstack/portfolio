@@ -5,11 +5,15 @@ import vtCertificate from '../assets/vt certificate.jpg';
 import pythonCertificate from '../assets/python.pdf';
 import githubCertificate from '../assets/Harshal Patil_Certificate_7_8_2024.pdf';
 import aiCertificate from '../assets/IIT bombay.pdf';
+import secondrunnerup from '../assets/c5.jpg';
 
 import c1Img from '../assets/c1.jpg';
 import c2Img from '../assets/c2.jpg';
 import c3Img from '../assets/c3.jpg';
 import c4Img from '../assets/c4.jpg';
+import c5Img from '../assets/c5.jpg';
+
+
 
 export default function Services() {
   const [activeTab, setActiveTab] = useState<'skills' | 'certificates' | 'education'>('skills');
@@ -86,6 +90,13 @@ export default function Services() {
       }
       case 'certificates': {
         const certs = [
+          {
+            title: 'Hackathon-Xcelerate by money matters',
+            org: 'IIIT-NR (24-hrs Hackathon)',
+            date: '13-14 Feb 2026',
+            file: secondrunnerup,
+            image: c5Img
+          },
           {
             title: 'Full Stack Web using AI',
             org: 'Skyvo Technologies (Offline)',
