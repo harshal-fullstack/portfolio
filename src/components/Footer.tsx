@@ -9,7 +9,7 @@ export default function Footer() {
           <span className="font-semibold text-xl">Harry.</span>
         </div>
         <p className="text-slate-400 text-sm text-center md:text-left transition-colors duration-300">
-          &copy; {new Date().getFullYear()} HarshalPortfolio. Designed with React@vite & Tailwind.
+          &copy; {new Date().getFullYear()} HarshalPortfolio. Designed By <a href="https://github.com/harshal-fullstack" target="_blank" rel="noopener noreferrer" className="text-primary-600 hover:underline transition-colors duration-300">Harshal Patil</a>.
         </p>
         <div className="flex gap-4">
           <a href="https://www.linkedin.com/in/harshal2005/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center text-slate-300 hover:bg-primary-600 hover:text-white transition-all shadow-md">
