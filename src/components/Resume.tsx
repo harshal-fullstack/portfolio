@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { Download, FileText } from 'lucide-react';
-import resumeUrl from '../assets/Harshal_cCV.pdf';
+import resumeUrl from '../assets/Harshal new cv.pdf';
 
 export default function Resume() {
   return (
